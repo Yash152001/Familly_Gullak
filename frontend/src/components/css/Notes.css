@@ -1,0 +1,19 @@
+
+.item{
+   height: inherit;
+   width: inherit;
+   min-height: 200px;
+   min-width: 200px;
+   border: 5px solid black;
+   margin: 1em;
+}
+@media only screen and (max-width: 420px){
+.item {
+    height: inherit;
+    width: inherit;
+    min-height: 200px;
+    min-width: 200px;
+    border: 5px solid black;
+    margin: 0em;
+}
+}

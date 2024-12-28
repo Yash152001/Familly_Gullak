@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+#Home{
+    height: inherit;
+    background-color: gray;
+}
+.listContainer{
+    display: none;
+}
+.navheader{
+    display: flex;
+    /* border-bottom: 1px solid blue ; */
+    /* background-color: #000507; */
+    /* border: 2px solid red; */
+}
+.navbarright{
+    /* border: 2px solid red; */
+    display : flex;
+    left: 50%;
+    /* top: 10%; */
+    justify-content: right;
+    text-align: right;
+    width: 50%;
+}
+
+.navabarleft{
+    width: 50%;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+.navigation ul li{
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+.navigation ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight:bolder;
+    padding: 10px 30px;
+}
+.navigation ul li a:hover{
+     background-color:#016ba0;
+     border-radius: 24px;
+}
