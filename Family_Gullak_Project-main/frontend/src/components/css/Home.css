@@ -1,0 +1,106 @@
+
+.contact-firstsection {
+    margin-top: 50px;
+    /* display: flex; */
+    padding: 0% 05%;
+    /* border: 2px solid red; */
+}
+
+
+.contact-messageme h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.contact-firstrow input {
+    width: 41%;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    /* margin-left: 2.5%;  */
+    background-color: rgba(0, 133, 201, 0.2);
+    border: 5px solid #0085C9;
+    border-radius: 25px;
+    backdrop-filter: blur(4px);
+}
+
+form input {
+    background-color: rgba(0, 133, 201, 0.2);
+    border: 5px solid #0085C9;
+    border-radius: 25px;
+    width: 84%;
+    padding: 10px;
+    font-size: 18px;
+    padding-left: 20px; 
+    backdrop-filter: blur(4px);
+    margin-left: 20px;
+    
+}
+
+textarea {
+    background-color: rgba(0, 133, 201, 0.2);
+    border: 5px solid #0085C9;
+    border-radius: 25px;
+    margin-left: 20px;
+    max-width: 84%;
+    backdrop-filter: blur(4px);
+    font-size: 18px ;
+    padding: 10px;
+    padding-left: 20px;
+    min-width: 84%;
+    /* border: none; */
+    /* border-bottom: 1px solid #0085C9;; */
+}
+
+.contact-firstsection button {
+    background-color: #0085C9;;
+    color: black;
+    border-radius: 23px;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 420px){
+
+textarea {
+    background-color: rgba(0, 133, 201, 0.2);
+    border: 5px solid #0085C9;
+    border-radius: 25px;
+    margin-left: 0px;
+    max-width: 100%;
+    backdrop-filter: blur(4px);
+    font-size: 18px ;
+    padding: 10px;
+    padding-left: 20px;
+    min-width: 100%;
+ 
+}
+form input {
+    background-color: rgba(0, 133, 201, 0.2);
+    border: 5px solid #0085C9;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    padding-left: 20px; 
+    backdrop-filter: blur(4px);
+    margin-left: 0px;
+    
+}
+.contact-firstsection {
+    margin-top: 50px;
+    /* display: flex; */
+    padding: 0% 3%;
+    /* border: 2px solid red; */
+}
+.item {
+    height: inherit;
+    width: inherit;
+    min-height: 200px;
+    min-width: 200px;
+    border: 5px solid black;
+    margin: 0em;
+}
+
+}
